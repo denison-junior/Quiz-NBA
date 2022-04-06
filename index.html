@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Timeline</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--  Logo  -->
+
+    <h1>Quiz da <span>NBA</span></h1>
+
+    <!--  Questions  -->
+    <form onsubmit="submitEvent(event)">
+        <p> PERGUNTA 1: Quem é melhor jogador de todos os tempos?</p>
+            <INPUT id="p1" TYPE="text">
+                
+        <p> Pergunta 2: Qual é o melhor time da NBA?</p>
+            <INPUT id="p2" TYPE="text"> 
+            
+        <p> Pergunta 3: Qual é o melhor arremesador da história da NBA?</p>
+            <input id="p3" type="text">
+
+        <p> Pergunta 4: Qual é o número da camisa do Curry?</p>
+            <input id="p4" type="text">
+
+        <p> Pergunta 5: Qual é o patrocínio de tênis do Curry? </p>
+        <ul>
+            <li> 
+                <input type="radio" name="option" value="op1"> Nike </input>
+            </li>
+            <li>    
+                <input type="radio" name="option" value="op2"> Adidas </input>
+            </li>
+            <li> 
+                <input type="radio" name="option" value="op3"> Under Armou</input>
+            </li>
+        </ul>
+
+        <!-- Button -->
+        <button>resposta</button>
+    </form>
+    <p id="score">Total de pontos: </p>
+  </body>
+</html>

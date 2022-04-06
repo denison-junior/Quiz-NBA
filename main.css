@@ -1,0 +1,54 @@
+/* === font === */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+}
+
+:root {
+    --blue: blue;
+    --white: white;
+    --red: red;
+}
+
+/* === logo ===  */
+
+h1 {
+    color: var(--red);
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 span{
+    color: var(--blue);
+}
+
+.red_span {
+    color: var(--red);
+}
+
+/* .blue_span {
+    color: var(--blue);
+}
+
+.white_span {
+    color: var(--white);
+} */
+
+/* === Questions ===  */
+
+input{
+    margin-left: 1.31rem;
+}
+
+p {
+    margin-left: 1.31rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    margin-left: 1.31rem;
+}
